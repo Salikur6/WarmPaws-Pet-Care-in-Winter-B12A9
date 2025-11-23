@@ -1,0 +1,74 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "https://i.ibb.co/6Jv02zNX/photo-1679672190798-7b4904a3e40b-q-80-w-687-auto-format-fit-crop-ixlib-rb-4-1.jpg",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "image": "https://i.ibb.co/q3V7pLj5/premium-photo-1663048836727-f6e76b5b7bc7-q-80-w-1170-auto-format-fit-crop-ixlib-rb-4-1.jpg",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Heated Bed & Blanket Rental",
+    "providerName": "WarmNest Pet Supplies",
+    "providerEmail": "support@warmnestpets.com",
+    "price": 18,
+    "rating": 4.7,
+    "slotsAvailable": 6,
+    "description": "Rent cozy heated beds and thermal blankets to ensure pets sleep comfortably during freezing nights.",
+    "image": "https://i.ibb.co/DDPZDkcv/photo-1573682127988-f67136e7f12a-q-80-w-1174-auto-format-fit-crop-ixlib-rb-4-1.jpg",
+    "category": "Comfort"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Snow Walk Safety Checkup",
+    "providerName": "FrostyPaws Vet Clinic",
+    "providerEmail": "care@frostypawsclinic.com",
+    "price": 40,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "A full health and paw check before winter walks, including salt-protection advice and paw-pad inspections.",
+    "image": "https://i.ibb.co/VpPvq5H6/premium-photo-1664298392838-05097223e4ab-q-80-w-1171-auto-format-fit-crop-ixlib-rb-4-1.jpg",
+    "category": "Health"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Winter Nutrition & Diet Consultation",
+    "providerName": "HealthyTails Nutrition Center",
+    "providerEmail": "nutrition@healthytails.com",
+    "price": 22,
+    "rating": 4.6,
+    "slotsAvailable": 5,
+    "description": "Personalized winter diet planning to help your pet stay energized and healthy during the cold season.",
+    "image": "https://i.ibb.co/LXMCCqbx/photo-1617201835243-d7d48c53e3f6-q-80-w-1170-auto-format-fit-crop-ixlib-rb-4-1.jpg",
+    "category": "Nutrition"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Pet Winter Photography Session",
+    "providerName": "SnowLens Pet Studio",
+    "providerEmail": "studio@snowlens.com",
+    "price": 28,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "A cozy outdoor or indoor winter-themed photography session with props, scarves, and cute pet outfits.",
+    "image": "https://i.ibb.co/27qh4zc8/photo-1546419644-b08542b5ffa0-q-80-w-1170-auto-format-fit-crop-ixlib-rb-4-1.jpg",
+    "category": "Photography"
+  }
+]

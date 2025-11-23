@@ -8,7 +8,7 @@ const Footer = () => {
         <div>
             <footer className="footer footer-horizontal footer-center text-base-content rounded p-10 gap-4">
                 <div className='flex flex-wrap justify-center'>
-                    <ul className="menu menu-horizontal px-1 gap-3 font-semibold text-lg text-primary ">
+                    <ul className="menu menu-horizontal px-1 gap-3 font-semibold text-lg text-error ">
                         <NavLink to='/'>Home</NavLink>
                         <NavLink to='/services'>Services</NavLink>
                         <NavLink to='/profile'>My Profile</NavLink>
