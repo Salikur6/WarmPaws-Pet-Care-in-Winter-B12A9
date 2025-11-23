@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router';
+import { Link, NavLink, useLocation } from 'react-router';
 
 const Navbar = () => {
+
     const links = <>
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/services'>Services</NavLink>
         <NavLink to='/profile'>My Profile</NavLink>
     </>
 
-
+    const [showLoading, setShowLoading] = useState(false);
     const [hover, setHover] = useState(false);
+    const location = useLocation();
+    console.log(location)
 
     const onHover = () => {
         setHover(!hover);

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Profile = () => {
     return (
-        <div>
+        <div className='min-h-screen bg-base-200'>
             profile
         </div>
     );

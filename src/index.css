@@ -1,2 +1,40 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 3s linear infinite;
+}
+
+@keyframes bounce-soft {
+  0%, 100% {
+    transform: translateY(-6px);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+.animate-bounce-soft {
+  animation: bounce-soft 1.2s ease-in-out infinite;
+}
+
+
+.swiper-pagination-bullet {
+  background: white !important;
+  opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+  background: #3b82f6 !important; /* Tailwind blue-500 */
+  opacity: 1;
+}

@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router'
 import Home from './components/Home.jsx'
 import Services from './components/Services.jsx'
 import Profile from './components/Profile.jsx'
+import PrivacyPolicy from './components/Privacy.jsx'
+// import PrivacyPolicy from './components/PrivacyPolicy.jsx'
 
 const router = createBrowserRouter([
   {
@@ -17,6 +19,9 @@ const router = createBrowserRouter([
       },
       {
         path: 'profile', Component: Profile
+      },
+      {
+        path: 'privacy-Policy', Component: PrivacyPolicy
       }
     ]
   }
