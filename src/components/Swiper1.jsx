@@ -14,6 +14,13 @@ const HeroSlider = () => {
       title: "Keep Your Pet Warm This Winter",
       subtitle: "Cozy outfits, safe grooming and trusted winter care.",
     },
+     {
+      id: 3,
+     
+      img: "https://i.ibb.co/Xkt9V9j9/caniinverno1140-5.jpg",
+      title: "Your Pet’s Winter Companion",
+      subtitle: "Book trusted services from verified pet care providers.",
+    },
     {
       id: 2,
        img: "https://i.ibb.co/Vc51YP9M/8a91bbf1939e6201764c1915b7ae.png",
@@ -21,13 +28,7 @@ const HeroSlider = () => {
       title: "Comfort Meets Care",
       subtitle: "Discover the best winter tips and expert pet services.",
     },
-    {
-      id: 3,
-     
-      img: "https://i.ibb.co/Xkt9V9j9/caniinverno1140-5.jpg",
-      title: "Your Pet’s Winter Companion",
-      subtitle: "Book trusted services from verified pet care providers.",
-    },
+   
   ];
 
   const swiperRef = useRef(null);
